@@ -1,0 +1,1 @@
+This is my first attempt at creating a landing page based off an assigned design but writing everything from scratch.
