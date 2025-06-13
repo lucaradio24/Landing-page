@@ -39,7 +39,7 @@ h1 {
     font-weight: 900;
 }
 
-p {
+.hero-text {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -83,9 +83,80 @@ justify-content: space-between;
     border-radius: 10px;
 }
 
-h3 {
+.subtext-img{
     font-weight: lighter;
     text-align: center;
+    font-size: large;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 120px;
+    padding-bottom: 15px;
+    
+}
+
+p.cit {
+ font-size: 36px;
+ font-style: italic;
+ font-weight: 200;
+ color: #1f2937;
+ text-align: center;
+ margin: 0;
+}
+
+.autore {
+   align-self: flex-end;
+   font-weight: bold;
+}
+
+.banner {
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 60px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+}
+
+.sign{
+    /* align-self: flex-end; */
+    border: 2px solid #e5e7eb;
+}
+
+.banner-content {
+display: flex;
+flex-direction: column;
+
+}
+
+.banner-text, .banner-subtext {
+    margin:1px;
+    color: #e5e7eb;
+}
+
+.banner-text {
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.banner-subtext {
+    font-size: 12px;
+}
+.banner-container {
+    padding: 60px 80px;
+}
+
+.footer {
+   background-color: #1f2937; 
+   color: #e5e7eb;
+   padding: 8px;
+   display: flex;
+   justify-content: center;
 }
 
 /* .boxes div {
